@@ -1,5 +1,5 @@
 const express = require ('express')
-const ConnectDB = require('./config/ConnectDB')
+const ConnectDB = require('./Config/ConnectDB')
 const userRouter = require('./Routes/User')
 const usersRouter = require('./Routes/ManageUsers')
 const equipmentsRouter = require('./Routes/ManageEquipments')
